@@ -175,3 +175,139 @@ nav {
     padding: 10px;
 }
 
+/* Main section */
+#purple {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.online-games-header {
+    color: #0B0223;
+    text-align: right;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.online-games-description {
+    color: #534C64;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.online-games h3 {
+    text-align: center;
+}
+
+.online-games-img {
+    display: flex;
+
+}
+
+.online-games-img img {
+    width: 100%;
+
+}
+
+.online-games-img :hover {
+    color: #3C354F;
+    border: 1px solid palevioletred;
+
+
+}
+
+/* play section */
+
+#pink-text {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.play-content {
+    width: 353px;
+    margin-top: 170px;
+    margin-left: 100px;
+    margin-right: 50px;
+}
+
+.play-content h2 {
+    font-size: 48px;
+    font-weight: 700;
+    text-align: left;
+
+}
+
+.play-content p {
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.play {
+    display: flex;
+    margin-top: 100px;
+}
+
+
+.play-img>img {
+    height: 60%;
+    margin-left: 300px;
+    margin-right: 50px;
+}
+
+
+.play-img-cat {
+    position: relative;
+    bottom: 300px;
+    margin-left: 150px;
+}
+
+/* Button section */
+
+
+.button-container1 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-items: center;
+
+}
+
+.button-container2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+
+}
+
+.btn-content>button {
+    background: #FFF;
+    border-style: none;
+    width: 251px;
+    height: 80px;
+    border-radius: 40px;
+    background: #FFF;
+    border-style: none;
+    display: flex;
+    align-items: center;
+
+}
+
+.button {
+    margin-left: 100px;
+    margin-bottom: 100px;
+    margin-top: 20px;
+}
+
+.btn-content>button:hover {
+    border: 2px solid #F948B2;
+    color: #FF42A5;
+}
